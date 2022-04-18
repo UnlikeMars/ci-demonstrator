@@ -23,7 +23,7 @@ jobs:
 
       - name: build
         run: |
-          npm build
+          npm run-script build
 
       - name: Deploy with gh-pages
         run: |
